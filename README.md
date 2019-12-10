@@ -1,12 +1,6 @@
 <div align="center">
   <img src="./assets/images/Logo.svg" />
-
-  <br />
-  <br />
-  <br />
-   <h1>
-    Node.js 后端工程师学习路径
-  </h1>
+  <h1>Node.js 后端工程师学习路径</h1>
   <p>
     Node.js 使用了全球最流行的 JavaScript 语言进行开发，并基于性能强悍的 V8 引擎，已经成为目前最热门的服务器开发平台之一。无论你是已经熟悉 JavaScript 的前端工程师，还是其他后端（例如 Java）工程师，抑或是编程新手，Node.js 都有十足的理由值得你学习和探索。
   </p>
