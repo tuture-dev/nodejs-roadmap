@@ -1,6 +1,8 @@
-<div align="center">
-  <img src="./assets/images/Logo.svg" />
-  <h1>Node.js 后端工程师学习路径</h1>
+<div align="center" id="top">
+  <img style="display: inline;" width="100%" src="./assets/images/Logo.svg" />
+  <h1>
+    Node.js 后端工程师学习路径
+  </h1>
   <p>
     Node.js 使用了全球最流行的 JavaScript 语言进行开发，并基于性能强悍的 V8 引擎，已经成为目前最热门的服务器开发平台之一。无论你是已经熟悉 JavaScript 的前端工程师，还是其他后端（例如 Java）工程师，抑或是编程新手，Node.js 都有十足的理由值得你学习和探索。
   </p>
@@ -40,7 +42,7 @@
 ## 入门
 
 <div align="center">
-<img width="100" height="100" src="./assets/images/javascript.svg" />
+<img style="display: inline;" width="100" height="100" src="./assets/images/javascript.svg" />
 
 ### JavaScript 语言基础
 </div>
@@ -83,11 +85,16 @@
 - [W3schools JavaScript 教程](https://www.quanzhanketang.com/js/default.html)（英文）
 - [阮一峰《ECMAScript 6 入门》](http://es6.ruanyifeng.com/)
 
+<div align="center">
+<br/>
+<a href="#top">⬆️返回顶部</a>
+</div>
+
 ---
 
 <div align="center">
 <br/>
-<img width="100" height="100" src="./assets/images/nodejs.svg" />
+<img style="display: inline;" width="100" height="100" src="./assets/images/nodejs.svg" />
 
 ### Node 基础
 </div>
@@ -127,11 +134,16 @@
 - [《Node.js技术栈》- Node.js基础系列](https://www.nodejs.red/#/nodejs/base/what-is-nodejs)
 - [《Node.js技术栈》- Module模块机制](https://www.nodejs.red/#/nodejs/module)
 
+<div align="center">
+<br/>
+<a href="#top">⬆️返回顶部</a>
+</div>
+
 ---
 
 <div align="center">
 <br/>
-<img width="100" height="100" src="./assets/images/http.svg" />
+<img style="display: inline;" width="100" height="100" src="./assets/images/http.svg" />
 
 
 ### HTTP 协议
@@ -165,10 +177,15 @@
 - [十分钟搞懂 HTTP 和 HTTPS 协议](https://zhuanlan.zhihu.com/p/72616216)
 - [阮一峰 - HTTP 协议入门](http://www.ruanyifeng.com/blog/2016/08/http.html)
 
+<div align="center">
+<br/>
+<a href="#top">⬆️返回顶部</a>
+</div>
+
 ## 进阶
 
 <div align="center">
-<img width="100" height="100" src="./assets/images/promises.svg" />
+<img style="display: inline;" width="100" height="100" src="./assets/images/promises.svg" />
 
 ### 异步编程
 </div>
@@ -192,12 +209,17 @@
 - [MDN - async 函数](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/async_function)
 - [JavaScript Promise迷你书](http://liubin.org/promises-book/)
 
+<div align="center">
+<br/>
+<a href="#top">⬆️返回顶部</a>
+</div>
+
 ---
 
 <div align="center">
 <br>
-<img width="100" height="100" style="padding-right: 20px" src="./assets/images/express.svg" />
-<img width="100" height="100" src="./assets/images/koa.svg" />
+<img style="display: inline; margin-right: 15px;" width="100" height="100" src="./assets/images/express.svg" />
+<img style="display: inline;" width="100" height="100" src="./assets/images/koa.svg" />
 
 ### Web 后端开发
 </div>
@@ -227,13 +249,18 @@
 - [Koa 中文文档](https://github.com/guo-yu/koa-guide)
 - [Koa2 进阶学习笔记](https://chenshenhai.github.io/koa2-note/)
 
+<div align="center">
+<br/>
+<a href="#top">⬆️返回顶部</a>
+</div>
+
 ---
 
 <div align="center">
 <br/>
-<img width="100" height="100" src="./assets/images/mocha.svg" />
-<img width="100" height="100" src="./assets/images/chai.svg" />
-<img width="100" height="100" src="./assets/images/jest.svg" />
+<img style="display: inline;" width="100" height="100" src="./assets/images/mocha.svg" />
+<img style="display: inline;" width="100" height="100" src="./assets/images/chai.svg" />
+<img style="display: inline;" width="100" height="100" src="./assets/images/jest.svg" />
 
 ### 自动化测试
 </div>
@@ -255,6 +282,11 @@
 
 - [阮一峰 - 测试框架 Mocha 实例教程](http://www.ruanyifeng.com/blog/2015/12/a-mocha-tutorial-of-examples.html)
 
+<div align="center">
+<br/>
+<a href="#top">⬆️返回顶部</a>
+</div>
+
 ---
 
 <div align="center">
@@ -264,30 +296,45 @@
 ### 实时应用开发
 </div>
 
-🛠 筹备中，敬请期待。
+<div align="center">🛠筹备中，敬请期待</div>
+
+<div align="center">
+<br/>
+<a href="#top">⬆️返回顶部</a>
+</div>
 
 ---
 
 <div align="center">
 <br/>
-<img width="100" height="100" style="padding: 5px" src="./assets/images/pm2.svg" />
-<img width="100" height="100" style="padding: 5px" src="./assets/images/docker-icon.svg" />
-<img width="100" height="100" src="./assets/images/kubernetes.svg" />
+<img style="display: inline;" width="100" height="100" style="padding: 5px" src="./assets/images/pm2.svg" />
+<img style="display: inline;" width="100" height="100" style="padding: 5px" src="./assets/images/docker-icon.svg" />
+<img style="display: inline;" width="100" height="100" src="./assets/images/kubernetes.svg" />
 
 ### 应用部署
 </div>
 
-🛠 筹备中，敬请期待。
+<div align="center">🛠筹备中，敬请期待</div>
+
+<div align="center">
+<br/>
+<a href="#top">⬆️返回顶部</a>
+</div>
 
 ## 前沿
 
 <div align="center">
 <br/>
-<img width="100" height="100" style="padding: 5px" src="./assets/images/graphql.svg" />
-<img width="100" height="100" style="padding: 5px" src="./assets/images/prisma.svg" />
-<img width="100" height="100" src="./assets/images/apollostack.svg" />
+<img style="display: inline;" width="100" height="100" style="padding: 5px" src="./assets/images/graphql.svg" />
+<img style="display: inline;" width="100" height="100" style="padding: 5px" src="./assets/images/prisma.svg" />
+<img style="display: inline;" width="100" height="100" src="./assets/images/apollostack.svg" />
 
 ### GraphQL 服务开发
 </div>
 
-🛠 筹备中，敬请期待。
+<div align="center">🛠筹备中，敬请期待</div>
+
+<div align="center">
+<br/>
+<a href="#top">⬆️返回顶部</a>
+</div>
