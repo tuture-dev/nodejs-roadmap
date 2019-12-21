@@ -47,7 +47,7 @@
 ### JavaScript 语言基础
 </div>
 
-> JavaScript ( JS ) 是一种具有函数优先的轻量级，解释型或即时编译型的编程语言。虽然它是作为开发Web 页面的脚本语言而出名的，但是它也被用到了很多非浏览器环境中，例如 Node.js、 Apache CouchDB 和 Adobe Acrobat。JavaScript 是一种基于原型编程、多范式的动态脚本语言，并且支持面向对象、命令式和声明式（如函数式编程）风格。了解更多 JavaScript。
+> JavaScript (简称 JS) 是当今最受欢迎的编程语言。从一开始用来在网页中添加简单的动画和表单检验，到现在用来构建复杂的跨平台客户端应用，以及用 Node.js 搭建后端应用，JavaScript 已经在互联网世界刮起了一股强烈的风暴。掌握好 JavaScript 语言基础，可以说是半只脚踏进了 Web 的世界。
 
 #### 知识点
 
@@ -121,11 +121,12 @@
 5. 全局对象
     - process 对象
     - Buffer 对象
+6. 事件
 
 #### 实战教程
 
 - ✍️《Node.js 开发环境搭建》 *🗝知识点 1、2、4*
-- ✅[《Node.js 快速入门教程》](https://tuture.co/2019/12/03/892fa12/) *🗝知识点 3、4、5*
+- ✅[《一杯茶的时间，上手 Node.js》](https://tuture.co/2019/12/03/892fa12/) *🗝知识点 3、4、5、6*
 
 #### 参考资源
 
@@ -224,21 +225,35 @@
 ### Web 后端开发
 </div>
 
-> 凭借优秀的 I/O 性能和吞吐率， Node.js 当之无愧是 Web 服务器开发的首选之一。后端开发常用框架包括 Express 和 Koa，可任选其一进行学习。
+> 毫不夸张的说，Node 就是为 Web 而生的平台，其核心是由 Ryan Dahl 用 1500 行经过高度优化的 C 代码实现的流式 HTTP 解析器。如何用 Node 构建既健壮又高效的 Web 服务器应用，几乎是每个 Node 程序员的必修课。后端开发常用框架包括 Express 和 Koa，可任选其一进行学习。
 
 #### 知识点
 
 1. 路由的概念与定义
-2. 中间件的编写与使用
+    - 路由的组成：HTTP 方法 + URI
+    - 嵌套路由的实现
+    - 动态路由的实现
+2. 中间件
+    - 中间件的概念
+    - 使用第三方中间件
+    - 编写自定义中间件
 3. 模板引擎的使用
+    - 模板引擎的语法（可选用 [Handlebars](https://handlebarsjs.com/)、[Pug](https://pug.bootcss.com/api/getting-started.html) 等）
+    - 在服务器框架中接入模板引擎，渲染页面
 4. RESTful API 的开发
+    - 了解 HTTP 规范
+    - 了解最常见的四个方法（GET、POST、PUT、DELETE）的含义
+    - 在框架中响应不同的 HTTP 方法
 5. 关系型数据库的接入（例如 MySQL）
+    - 连接数据库，包括鉴权与重连机制
+    - 
 6. 文档型数据库的接入（例如 MongoDB）
+7. 集成 Redis 数据库
 
 #### 实战教程
 
-- ✅[《Express 快速入门教程》](https://tuture.co/2019/11/26/cd5b993/) 🗝知识点 1, 2, 3
-- ✍️《Koa 快速入门教程》 🗝知识点 1, 2, 3
+- ✅[《一杯茶的时间，上手 Express 框架开发》](https://tuture.co/2019/11/26/cd5b993/) 🗝知识点 1, 2, 3
+- ✍️《一杯茶的时间，上手 Koa 框架开发》 🗝知识点 1, 2, 3
 - ✅[《从零开始用 Express + MongoDB 搭建图片分享社区（一）》](https://tuture.co/2019/10/16/a0531f0/) 🗝知识点 1, 2, 3
 - ✅[《从零开始用 Express + MongoDB 搭建图片分享社区（二）》](https://tuture.co/2019/10/16/29f41c0/) 🗝知识点 1, 2, 3, 6
 
@@ -265,22 +280,37 @@
 ### 自动化测试
 </div>
 
+> 自动化测试往往被忽视，但却是保障软件质量的关键一环。自动化测试解决了手工测试的繁琐、枯燥、易错的问题，让开发者能够专注于写出高质量的软件，同时也大大改善了团队协作的流程。自动化测试主要包括单元测试和集成测试（或称功能测试、验收测试等等），同时也涵盖了测试覆盖率、持续集成等知识点。
+
 #### 知识点
 
 1. 单元测试
-2. 基准测试
-3. 持续集成
-    - Travis CI
-    - Circle CI
-    - GitHub Action
+    - 测试驱动开发（TDD）的概念
+    - 行为驱动开发（BDD）的概念
+    - 了解常用的测试框架（[Mocha](https://mochajs.cn/)、[Jest](https://jestjs.io/zh-Hans/)、[Jasmine](http://jasmine.github.io/) 等等）
+    - 了解常用的断言库（内置 assert 模块、[Chai](https://github.com/chaijs/chai)、[unit.js](https://www.npmjs.com/package/unit.js) 等等）
+    - 利用测试框架和断言库为 Node 模块编写单元测试
+2. 集成测试
+    - 了解浏览器自动化测试
+    - 利用 [Karma](https://github.com/karma-runner/karma) 或 [Testcafe](https://devexpress.github.io/testcafe/) 进行集成测试
+3. 测试覆盖率
+    - 了解测试覆盖率的意义
+    - 通过 [Codecov](https://codecov.io/)、[Jest](https://jestjs.io/zh-Hans/)（自带）或 [Istanbul](https://github.com/gotwarlost/istanbul) 生成测试覆盖率报告
+4. 持续集成
+    - 了解持续集成的意义
+    - 了解常见的持续集成工具/平台（例如 [Travis CI](https://travis-ci.org/)、[Circle CI](https://circleci.com/) 或 [GitHub Action](https://help.github.com/en/actions)）
+    - 配置持续集成，接入项目开发流程
 
 #### 实战教程
 
-- ✍️《Mocha + Chai 测试 Express 应用》 🗝知识点 1, 3
+- ✍️《一杯茶的时间，上手 Mocha 单元测试》 🗝知识点 1, 4
+- ✍️《一杯茶的时间，上手 Karma 浏览器测试》 🗝知识点 2, 4
 
 #### 参考资源
 
 - [阮一峰 - 测试框架 Mocha 实例教程](http://www.ruanyifeng.com/blog/2015/12/a-mocha-tutorial-of-examples.html)
+- [阮一峰 - 持续集成服务 Travis CI 教程](http://www.ruanyifeng.com/blog/2017/12/travis_ci_tutorial.html)
+- [阮一峰 - GitHub Actions 入门教程](http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html)
 
 <div align="center">
 <br/>
