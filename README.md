@@ -11,84 +11,30 @@
 ## 目录 <!-- omit in toc -->
 
 - [入门](#%e5%85%a5%e9%97%a8)
-  - [JavaScript 语言基础](#javascript-%e8%af%ad%e8%a8%80%e5%9f%ba%e7%a1%80)
-    - [知识点](#%e7%9f%a5%e8%af%86%e7%82%b9)
-    - [参考资源](#%e5%8f%82%e8%80%83%e8%b5%84%e6%ba%90)
   - [Node 基础](#node-%e5%9f%ba%e7%a1%80)
-    - [知识点](#%e7%9f%a5%e8%af%86%e7%82%b9-1)
+    - [知识点](#%e7%9f%a5%e8%af%86%e7%82%b9)
     - [实战教程](#%e5%ae%9e%e6%88%98%e6%95%99%e7%a8%8b)
-    - [参考资源](#%e5%8f%82%e8%80%83%e8%b5%84%e6%ba%90-1)
-  - [HTTP 协议](#http-%e5%8d%8f%e8%ae%ae)
-    - [知识点](#%e7%9f%a5%e8%af%86%e7%82%b9-2)
-    - [参考资源](#%e5%8f%82%e8%80%83%e8%b5%84%e6%ba%90-2)
 - [进阶](#%e8%bf%9b%e9%98%b6)
   - [异步编程](#%e5%bc%82%e6%ad%a5%e7%bc%96%e7%a8%8b)
-    - [知识点](#%e7%9f%a5%e8%af%86%e7%82%b9-3)
+    - [知识点](#%e7%9f%a5%e8%af%86%e7%82%b9-1)
     - [实战教程](#%e5%ae%9e%e6%88%98%e6%95%99%e7%a8%8b-1)
-    - [参考资源](#%e5%8f%82%e8%80%83%e8%b5%84%e6%ba%90-3)
   - [Web 后端开发](#web-%e5%90%8e%e7%ab%af%e5%bc%80%e5%8f%91)
-    - [知识点](#%e7%9f%a5%e8%af%86%e7%82%b9-4)
+    - [知识点](#%e7%9f%a5%e8%af%86%e7%82%b9-2)
     - [实战教程](#%e5%ae%9e%e6%88%98%e6%95%99%e7%a8%8b-2)
-    - [参考资源](#%e5%8f%82%e8%80%83%e8%b5%84%e6%ba%90-4)
   - [自动化测试](#%e8%87%aa%e5%8a%a8%e5%8c%96%e6%b5%8b%e8%af%95)
-    - [知识点](#%e7%9f%a5%e8%af%86%e7%82%b9-5)
+    - [知识点](#%e7%9f%a5%e8%af%86%e7%82%b9-3)
     - [实战教程](#%e5%ae%9e%e6%88%98%e6%95%99%e7%a8%8b-3)
-    - [参考资源](#%e5%8f%82%e8%80%83%e8%b5%84%e6%ba%90-5)
   - [实时应用开发](#%e5%ae%9e%e6%97%b6%e5%ba%94%e7%94%a8%e5%bc%80%e5%8f%91)
   - [应用部署](#%e5%ba%94%e7%94%a8%e9%83%a8%e7%bd%b2)
 - [前沿](#%e5%89%8d%e6%b2%bf)
   - [GraphQL 服务开发](#graphql-%e6%9c%8d%e5%8a%a1%e5%bc%80%e5%8f%91)
+- [参考资源](#%e5%8f%82%e8%80%83%e8%b5%84%e6%ba%90)
+  - [JavaScript 语言基础](#javascript-%e8%af%ad%e8%a8%80%e5%9f%ba%e7%a1%80)
+  - [HTTP 协议基础](#http-%e5%8d%8f%e8%ae%ae%e5%9f%ba%e7%a1%80)
+  - [Node.js 理论](#nodejs-%e7%90%86%e8%ae%ba)
+  - [Node.js 应用](#nodejs-%e5%ba%94%e7%94%a8)
 
 ## 入门
-
-<div align="center">
-<img style="display: inline;" width="100" height="100" src="./assets/images/javascript.svg" />
-
-### JavaScript 语言基础
-</div>
-
-> JavaScript (简称 JS) 是当今最受欢迎的编程语言。从一开始用来在网页中添加简单的动画和表单检验，到现在用来构建复杂的跨平台客户端应用，以及用 Node.js 搭建后端应用，JavaScript 已经在互联网世界刮起了一股强烈的风暴。掌握好 JavaScript 语言基础，可以说是半只脚踏进了 Web 的世界。
-
-#### 知识点
-
-1. JavaScript 语法要素
-    - 各类语句
-      - 循环语句
-      - 条件语句
-      - Switch 语句
-    - 变量与操作符
-    - 函数定义
-2. JavaScript 数据类型
-    - 五类基本数据类型
-      - string
-      - number
-      - boolean
-      - object
-      - function
-    - 三类object
-      - Object
-      - Date
-      - Array
-    - 两类空值
-      - undefined
-      - null
-3. ECMAScript 6+ 基础知识
-    - let & const 变量声明
-    - 箭头函数
-    - 对象 & 数组解构赋值
-    - class 的基本语法和继承
-    - Promise 对象
-
-#### 参考资源
-
-- [MDN - JavaScript 基础](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/JavaScript_basics)
-- [W3schools JavaScript 教程](https://www.quanzhanketang.com/js/default.html)（英文）
-- [阮一峰《ECMAScript 6 入门》](http://es6.ruanyifeng.com/)
-
-<div align="center">
-<br/>
-<a href="#top">⬆️返回顶部</a>
-</div>
 
 ---
 
@@ -128,55 +74,12 @@
 - ✍️《Node.js 开发环境搭建》 *🗝知识点 1、2、4*
 - ✅[《一杯茶的时间，上手 Node.js》](https://tuture.co/2019/12/03/892fa12/) *🗝知识点 3、4、5、6*
 
-#### 参考资源
-
-- [VSCode JavaScript 语言开发官方文档](https://code.visualstudio.com/docs/languages/javascript)
-- [狼叔：如何正确的学习Node.js - 安装Node.js环境](https://i5ting.github.io/How-to-learn-node-correctly/#10302)
-- [《Node.js技术栈》- Node.js基础系列](https://www.nodejs.red/#/nodejs/base/what-is-nodejs)
-- [《Node.js技术栈》- Module模块机制](https://www.nodejs.red/#/nodejs/module)
-
 <div align="center">
 <br/>
 <a href="#top">⬆️返回顶部</a>
 </div>
 
 ---
-
-<div align="center">
-<br/>
-<img style="display: inline;" width="100" height="100" src="./assets/images/http.svg" />
-
-
-### HTTP 协议
-</div>
-
-> HTTP是一种能够获取如 HTML 这样的网络资源的 protocol(通讯协议)。它是在 Web 上进行数据交换的基础，是一种 client-server 协议，也就是说，请求通常是由像浏览器这样的接受方发起的。一个完整的Web文档通常是由不同的子文档拼接而成的，像是文本、布局描述、图片、视频、脚本等等。
-
-#### 知识点
-
-1. HTTP 的概念
-2. HTTP 的特点
-    - 无连接
-    - 无状态
-3. 客户端向服务端发起请求的过程
-    - 三次握手
-4. 请求报文的内容格式
-    - 请求方法（GET、POST、PUT 等等）
-    - 请求路径（URL/URI）
-    - 请求头部及常见字段
-5. 响应报文的内容格式
-    - 状态码
-    - 响应头部及常见字段
-6. 常见的数据交换格式
-    - JSON
-    - Form 表单数据
-    - XML
-
-#### 参考资源
-
-- [MDN - HTTP 概述](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Overview)
-- [十分钟搞懂 HTTP 和 HTTPS 协议](https://zhuanlan.zhihu.com/p/72616216)
-- [阮一峰 - HTTP 协议入门](http://www.ruanyifeng.com/blog/2016/08/http.html)
 
 <div align="center">
 <br/>
@@ -203,14 +106,6 @@
 #### 实战教程
 
 - ✍️《Node.js 异步编程指北》 🗝知识点 1、2、3、4
-
-#### 参考资源
-
-- [狼叔：如何正确的学习Node.js - Node核心：异步流程控制](https://i5ting.github.io/How-to-learn-node-correctly/#10306)
-- [async 官方文档](http://caolan.github.io/async/v3/)（英文）
-- [MDN - 使用 Promise](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Using_promises)
-- [MDN - async 函数](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Statements/async_function)
-- [JavaScript Promise迷你书](http://liubin.org/promises-book/)
 
 <div align="center">
 <br/>
@@ -263,13 +158,6 @@
 - ✅[《从零开始用 Express + MongoDB 搭建图片分享社区（一）》](https://tuture.co/2019/10/16/a0531f0/) 🗝知识点 1, 2, 3
 - ✅[《从零开始用 Express + MongoDB 搭建图片分享社区（二）》](https://tuture.co/2019/10/16/29f41c0/) 🗝知识点 1, 2, 3, 6
 
-#### 参考资源
-
-- [Express 官方文档](http://expressjs.com/)（英文）
-- [MDN - Express 网页框架 (node.js/JavaScript)](https://developer.mozilla.org/zh-CN/docs/Learn/Server-side/Express_Nodejs)
-- [Koa 中文文档](https://github.com/guo-yu/koa-guide)
-- [Koa2 进阶学习笔记](https://chenshenhai.github.io/koa2-note/)
-
 <div align="center">
 <br/>
 <a href="#top">⬆️返回顶部</a>
@@ -311,12 +199,6 @@
 
 - ✍️《一杯茶的时间，上手 Mocha 单元测试》 🗝知识点 1, 4
 - ✍️《一杯茶的时间，上手 Karma 浏览器测试》 🗝知识点 2, 4
-
-#### 参考资源
-
-- [阮一峰 - 测试框架 Mocha 实例教程](http://www.ruanyifeng.com/blog/2015/12/a-mocha-tutorial-of-examples.html)
-- [阮一峰 - 持续集成服务 Travis CI 教程](http://www.ruanyifeng.com/blog/2017/12/travis_ci_tutorial.html)
-- [阮一峰 - GitHub Actions 入门教程](http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html)
 
 <div align="center">
 <br/>
@@ -374,3 +256,53 @@
 <br/>
 <a href="#top">⬆️返回顶部</a>
 </div>
+
+## 参考资源
+
+### JavaScript 语言基础
+
+🖥网络资源：
+
+- [现代 JavaScript 教程](https://zh.javascript.info/)：遵循最新的 JavaScript 语言标准，由浅入深，足够详细，插图精美丰富，还涉及了浏览器相关知识，适合刚了解 HTML 和 CSS 基础的同学学习，也适合老司机查阅和复习。
+
+- [MDN - JavaScript 基础](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web/JavaScript_basics)：权威的 JavaScript 文档，内容十分详细，涉及到前端开发的方方面面，适合查阅。
+
+- [W3schools JavaScript 教程](https://www.quanzhanketang.com/js/default.html)（英文）：W3School 国内镜像站，内容简洁明了，包含大量可运行的实际代码片段，推荐零基础且英语较好的同学学习。
+
+- [JavaScript Promise迷你书](http://liubin.org/promises-book/)：专注于讲透 JavaScript Promise 这个知识点，强烈推荐至今对 Promise 似懂非懂的同学学习。
+
+📚书籍推荐：
+
+- [《ECMAScript 6 入门》- 阮一峰](http://es6.ruanyifeng.com/)：阮一峰老师开源的 JavaScript 语言教程，重在介绍 ECMAScript 6（简称 ES6）引入的新语法特性，推荐想要了解 ES6 新特性的同学学习。
+
+### HTTP 协议基础
+
+- [MDN - HTTP 概述](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Overview)：权威的 HTTP 协议概述。
+
+- [十分钟搞懂 HTTP 和 HTTPS 协议](https://zhuanlan.zhihu.com/p/72616216)：在让你快速了解 HTTP 协议的同时，也了解 HTTPS 出现的背景和意义。
+
+- [阮一峰 - HTTP 协议入门](http://www.ruanyifeng.com/blog/2016/08/http.html)：阮一峰老师的 HTTP 协议介绍资料，具有不错的参考价值。
+
+### Node.js 理论
+
+🖥网络资源：
+
+- [狼叔：如何正确的学习Node.js](https://i5ting.github.io/How-to-learn-node-correctly/)：讲解了 Node.js 的相关基础知识，还分享了自己的成长经历和求职指南。
+
+- [Node.js技术栈](https://www.nodejs.red/)：涵盖了 JavaScript、ES6、Node.js、数据结构与算法、数据库、微服务、DevOps 等方方面面的知识。
+
+📚书籍推荐：
+
+- [《深入浅出 Node.js》- 朴灵](https://book.douban.com/subject/25768396/)：朴灵老师所撰 Node.js 理论进阶书籍，深入理解 Node.js 必备。
+
+### Node.js 应用
+
+🖥网络资源：
+
+- [MDN Express 教程](https://developer.mozilla.org/zh-CN/docs/Learn/Server-side/Express_Nodejs)：通过搭建一个图书馆应用，讲解 Express 框架各方面的知识。
+
+- [Koa2进阶学习笔记](https://chenshenhai.github.io/koa2-note/)：涵盖 Koa 2 的各方面使用，每个知识点都配有实例代码可供学习。
+
+📚书籍推荐：
+
+- [Node.js实战（第2版）](https://book.douban.com/subject/30288107/)：结合大量实例介绍如何用 JavaScript 和 Node 创建高性能的 Web 服务器，涵盖异步编程、状态管理、事件驱动编程等关键设计理念，旨在帮助读者成功晋级全栈开发。
